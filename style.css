@@ -1,0 +1,40 @@
+.bg-light {
+    background-color: #e9cf44 !important;
+}
+
+
+.main-bg {
+    background-color: rgb(61, 61, 61);
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.list-group-item:hover {
+    background-color: rgba(0,0,0,0.05);
+    cursor: pointer;
+    
+}
+
+.list-group-item {
+    border: 1px solid rgb(224, 224, 224) !important;
+    border-radius: 5px !important;
+    height: 44px;
+    margin: 5px;
+    box-shadow: 0px 0px 3px #bcbcbc;
+}
+
+.card>.list-group {
+    border-top:0ch !important ; 
+    border-bottom: 0ch !important ; 
+    --bs-list-group-border-width: 0px;
+}
